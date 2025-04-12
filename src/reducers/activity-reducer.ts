@@ -26,4 +26,6 @@ export const activityReducer = (
     if (action.type === 'save-activity') {
         console.log('Desde el type save-activity')
     }
+
+    return state
 }
